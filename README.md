@@ -22,7 +22,7 @@
 
 Sau khi đã chạy file "Create database.bat", bạn có thể khởi động Phần mềm Quản lý Cửa hàng Đồ ăn nhanh.
 
-* **Tên đăng nhập (Username):** Admin
+* **Tên đăng nhập (Username):** admin
 * **Mật khẩu (Password):** 0
 
 ---
