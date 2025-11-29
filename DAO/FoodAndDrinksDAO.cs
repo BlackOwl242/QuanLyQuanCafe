@@ -4,9 +4,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DTO;
 
-namespace QuanLyCuaHangDoAnNhanh.DAO
+namespace QuanLyQuanCaPhe.DAO
 {
     public class FoodAndDrinksDAO
     {
@@ -48,7 +48,7 @@ namespace QuanLyCuaHangDoAnNhanh.DAO
                     f.price AS Gia,
                     f.ImagePath
                 FROM dbo.FoodAndDrinks AS f
-                INNER JOIN dbo.FoodCategory AS fc ON f.idCategory = fc.id";
+                INNER JOIN dbo.Category AS fc ON f.idCategory = fc.id";
             return DataProvider.Instance.ExecuteQuery(query);
         }
 
@@ -96,7 +96,7 @@ namespace QuanLyCuaHangDoAnNhanh.DAO
                     f.price AS Gia,
                     f.ImagePath
                 FROM dbo.FoodAndDrinks AS f 
-                INNER JOIN dbo.FoodCategory AS fc ON f.idCategory = fc.id
+                INNER JOIN dbo.Category AS fc ON f.idCategory = fc.id
                 WHERE f.name LIKE N'%' + @name + '%'
                    OR dbo.fuConvertToUnsign1(f.name) LIKE N'%' + dbo.fuConvertToUnsign1(@name) + '%'";
             DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { name });

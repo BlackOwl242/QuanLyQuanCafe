@@ -5,10 +5,10 @@ using System.Xml;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.draw;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DTO;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangDoAnNhanh.BLL
+namespace QuanLyQuanCaPhe.BLL
 {
     class InvoiceExporter
     {

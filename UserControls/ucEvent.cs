@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QuanLyCuaHangDoAnNhanh.BLL;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.BLL;
+using QuanLyQuanCaPhe.DTO;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class ucEvent : UserControl
     {

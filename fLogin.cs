@@ -1,10 +1,10 @@
-﻿using QuanLyCuaHangDoAnNhanh.DAO;
+﻿using QuanLyQuanCaPhe.DAO;
 using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangDoAnNhanh
+namespace QuanLyQuanCaPhe
 {
     public partial class fLogin: Form
     {

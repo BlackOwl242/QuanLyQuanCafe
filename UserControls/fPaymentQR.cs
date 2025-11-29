@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class fPaymentQR: Form
     {

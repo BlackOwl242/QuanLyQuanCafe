@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using QuanLyCuaHangDoAnNhanh.UserControls;
-using QuanLyCuaHangDoAnNhanh.DAO;
+using QuanLyQuanCaPhe.UserControls;
+using QuanLyQuanCaPhe.DAO;
 
-namespace QuanLyCuaHangDoAnNhanh
+namespace QuanLyQuanCaPhe
 {
     public partial class fMain: Form
     {

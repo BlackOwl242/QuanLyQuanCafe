@@ -4,10 +4,10 @@ using System;
 using System.Drawing;
 using System.IO; 
 using System.Windows.Forms;
-using QuanLyCuaHangDoAnNhanh.DAO;
+using QuanLyQuanCaPhe.DAO;
 using System.Linq;
 
-namespace QuanLyCuaHangDoAnNhanh.BLL
+namespace QuanLyQuanCaPhe.BLL
 {
     public class FoodAndDrinksBLL
     {

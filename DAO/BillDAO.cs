@@ -4,9 +4,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DTO;
 
-namespace QuanLyCuaHangDoAnNhanh.DAO
+namespace QuanLyQuanCaPhe.DAO
 {
     public class BillDAO
     {

@@ -1,4 +1,4 @@
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DTO;
 
 public static class SessionManager
 {

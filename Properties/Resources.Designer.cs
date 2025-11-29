@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuanLyCuaHangDoAnNhanh.Properties {
+namespace QuanLyQuanCaPhe.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace QuanLyCuaHangDoAnNhanh.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("QuanLyCuaHangDoAnNhanh.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("QuanLyQuanCaPhe.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

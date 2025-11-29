@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QuanLyCuaHangDoAnNhanh.DAO;
+using QuanLyQuanCaPhe.DAO;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Runtime.InteropServices;
-using QuanLyCuaHangDoAnNhanh.BLL;
+using QuanLyQuanCaPhe.BLL;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class ucRevenue: UserControl
     {

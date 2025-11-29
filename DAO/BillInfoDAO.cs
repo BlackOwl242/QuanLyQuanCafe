@@ -1,5 +1,5 @@
 ﻿using Microsoft.Identity.Client;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLyCuaHangDoAnNhanh.DAO
+namespace QuanLyQuanCaPhe.DAO
 {
     public class BillInfoDAO
     {

@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QuanLyCuaHangDoAnNhanh.DAO;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DAO;
+using QuanLyQuanCaPhe.DTO;
 using System.IO;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class ucFoodAndDrinks: UserControl
     {

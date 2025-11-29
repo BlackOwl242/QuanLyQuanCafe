@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
-using QuanLyCuaHangDoAnNhanh.DTO;
-using QuanLyCuaHangDoAnNhanh.DAO;
+using QuanLyQuanCaPhe.DTO;
+using QuanLyQuanCaPhe.DAO;
 using Newtonsoft.Json;
 using RestSharp;
 using System.IO;
 using System;
 using System.Drawing;
 
-namespace QuanLyCuaHangDoAnNhanh.BLL
+namespace QuanLyQuanCaPhe.BLL
 {
     public class TableManagementBLL
     {

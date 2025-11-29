@@ -15,7 +15,7 @@ set "SERVER_INSTANCE=localhost"
 set "DATABASE_NAME="
 
 :: 4. Ten thu muc log cho ung dung cua ban
-set "APP_NAME=FastFoodRestaurantManagement"
+set "APP_NAME=CafeShopManagement"
 
 :: ============================================================================
 :: THUC THI 

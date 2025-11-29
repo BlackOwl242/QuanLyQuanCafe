@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using QuanLyCuaHangDoAnNhanh.DAO;
-using QuanLyCuaHangDoAnNhanh.BLL;
+using QuanLyQuanCaPhe.DAO;
+using QuanLyQuanCaPhe.BLL;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class ucAccountManagement: UserControl
     {

@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyCuaHangDoAnNhanh", "QuanLyCuaHangDoAnNhanh.csproj", "{1985404F-E5EF-43CB-819C-680E25956AC7}"
-EndProject
-Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "FastFoodRestaurantManagement", "..\FastFoodRestaurantManagement\FastFoodRestaurantManagement.aiproj", "{6EE941F4-20AF-4462-AE75-7BBA16C24E83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyQuanCaPhe", "QuanLyQuanCaPhe.csproj", "{1985404F-E5EF-43CB-819C-680E25956AC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,12 +18,6 @@ Global
 		{1985404F-E5EF-43CB-819C-680E25956AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1985404F-E5EF-43CB-819C-680E25956AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1985404F-E5EF-43CB-819C-680E25956AC7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EE941F4-20AF-4462-AE75-7BBA16C24E83}.All|Any CPU.ActiveCfg = DefaultBuild
-		{6EE941F4-20AF-4462-AE75-7BBA16C24E83}.All|Any CPU.Build.0 = DefaultBuild
-		{6EE941F4-20AF-4462-AE75-7BBA16C24E83}.Debug|Any CPU.ActiveCfg = DefaultBuild
-		{6EE941F4-20AF-4462-AE75-7BBA16C24E83}.Debug|Any CPU.Build.0 = DefaultBuild
-		{6EE941F4-20AF-4462-AE75-7BBA16C24E83}.Release|Any CPU.ActiveCfg = DefaultBuild
-		{6EE941F4-20AF-4462-AE75-7BBA16C24E83}.Release|Any CPU.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

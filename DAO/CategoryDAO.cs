@@ -1,4 +1,4 @@
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLyCuaHangDoAnNhanh.DAO
+namespace QuanLyQuanCaPhe.DAO
 {
     public class CategoryDAO
     {
@@ -23,7 +23,7 @@ namespace QuanLyCuaHangDoAnNhanh.DAO
         public List<Category> GetListCategory()
         {
             List<Category> list = new List<Category>();
-            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetFoodCategory");
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetCategory");
             foreach (DataRow item in data.Rows)
             {
                 Category category = new Category(item);
@@ -33,20 +33,20 @@ namespace QuanLyCuaHangDoAnNhanh.DAO
         }
         public bool InsertCategory(string name)
         {
-            string query = "INSERT dbo.FoodCategory ( name ) VALUES ( @name )";
+            string query = "INSERT dbo.Category ( name ) VALUES ( @name )";
             int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { name });
             return result > 0;
         }
         public bool UpdateCategory(int id, string name)
         {
-            string query = "UPDATE dbo.FoodCategory SET name = @name WHERE id = @id";
+            string query = "UPDATE dbo.Category SET name = @name WHERE id = @id";
             int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { name, id });
             return result > 0;
         }
 
         public bool DeleteCategory(int id)
         {
-            string query = "DELETE dbo.FoodCategory WHERE id = @id";
+            string query = "DELETE dbo.Category WHERE id = @id";
             int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { id });
             return result > 0;
         }

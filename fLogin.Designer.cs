@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangDoAnNhanh
+﻿namespace QuanLyQuanCaPhe
 {
     partial class fLogin
     {

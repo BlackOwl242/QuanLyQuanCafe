@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangDoAnNhanh.UserControls
+﻿namespace QuanLyQuanCaPhe.UserControls
 {
     partial class fPaymentQR
     {

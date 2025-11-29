@@ -1,7 +1,7 @@
-using QuanLyCuaHangDoAnNhanh.DAO;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DAO;
+using QuanLyQuanCaPhe.DTO;
 
-namespace QuanLyCuaHangDoAnNhanh.BLL
+namespace QuanLyQuanCaPhe.BLL
 {
     public class AccountBLL
     {

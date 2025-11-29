@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuanLyCuaHangDoAnNhanh.Properties {
+namespace QuanLyQuanCaPhe.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,8 +26,8 @@ namespace QuanLyCuaHangDoAnNhanh.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Hy;Initial Catalog=QuanLyCuaHangDoAnNhanh;User ID=sa;Password=123456;" +
-            "TrustServerCertificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Hy;Initial Catalog=QuanLyQuanCafe;User ID=sa;Password=123456;TrustSer" +
+            "verCertificate=True")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));

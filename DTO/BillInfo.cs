@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLyCuaHangDoAnNhanh.DTO
+namespace QuanLyQuanCaPhe.DTO
 {
     public class BillInfo
     {

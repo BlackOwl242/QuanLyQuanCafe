@@ -1,5 +1,5 @@
-﻿using QuanLyCuaHangDoAnNhanh.BLL;
-using QuanLyCuaHangDoAnNhanh.DAO;
+﻿using QuanLyQuanCaPhe.BLL;
+using QuanLyQuanCaPhe.DAO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class ucTable: UserControl
     {

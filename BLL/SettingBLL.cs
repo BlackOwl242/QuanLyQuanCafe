@@ -1,6 +1,6 @@
-using QuanLyCuaHangDoAnNhanh.DAO;
+using QuanLyQuanCaPhe.DAO;
 
-namespace QuanLyCuaHangDoAnNhanh.BLL
+namespace QuanLyQuanCaPhe.BLL
 {
     public class SettingBLL
     {

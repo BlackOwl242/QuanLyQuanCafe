@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using QuanLyCuaHangDoAnNhanh.DAO;
-using QuanLyCuaHangDoAnNhanh.BLL;
+using QuanLyQuanCaPhe.DAO;
+using QuanLyQuanCaPhe.BLL;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class ucSetting: UserControl
     {

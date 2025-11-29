@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using QuanLyCuaHangDoAnNhanh.DTO;
-using QuanLyCuaHangDoAnNhanh.DAO;
 using System.Globalization;
-using QuanLyCuaHangDoAnNhanh.BLL;
+using System.Runtime.InteropServices;
+using QuanLyQuanCaPhe.DTO;
+using QuanLyQuanCaPhe.DAO;   
+using QuanLyQuanCaPhe.BLL;
 using System.IO;
 using System.Xml;
 using iTextSharp.text.pdf;
@@ -18,7 +18,7 @@ using System.Text;
 using Newtonsoft.Json;
 using System.Linq;
 
-namespace QuanLyCuaHangDoAnNhanh.UserControls
+namespace QuanLyQuanCaPhe.UserControls
 {
     public partial class ucTableManagement: UserControl
     {

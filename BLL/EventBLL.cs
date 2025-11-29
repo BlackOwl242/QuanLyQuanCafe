@@ -11,10 +11,10 @@ using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using MimeKit;
 using System.Drawing;
-using QuanLyCuaHangDoAnNhanh.DAO;
-using QuanLyCuaHangDoAnNhanh.DTO;
+using QuanLyQuanCaPhe.DAO;
+using QuanLyQuanCaPhe.DTO;
 
-namespace QuanLyCuaHangDoAnNhanh.BLL
+namespace QuanLyQuanCaPhe.BLL
 {
     public class EventBLL
     {
@@ -53,7 +53,7 @@ namespace QuanLyCuaHangDoAnNhanh.BLL
                 _gmailService = new GmailService(new BaseClientService.Initializer()
                 {
                     HttpClientInitializer = _credential,
-                    ApplicationName = "QuanLyCuaHangDoAnNhanh Email Service"
+                    ApplicationName = "QuanLyQuanCaPhe Email Service"
                 });
 
                 _isAuthenticated = true;
@@ -88,7 +88,7 @@ namespace QuanLyCuaHangDoAnNhanh.BLL
 
                 var message = new MimeMessage();
                 message.To.Add(new MailboxAddress("", toEmail));
-                message.Subject = subject ?? "Thông báo từ QuanLyCuaHangDoAnNhanh";
+                message.Subject = subject ?? "Thông báo từ QuanLyQuanCaPhe";
 
                 // Tạo nội dung email
                 var builder = new BodyBuilder();
