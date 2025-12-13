@@ -20,7 +20,7 @@
 
 **3. ĐĂNG NHẬP VÀO PHẦN MỀM**
 
-Sau khi đã chạy file "Create database.bat", bạn có thể khởi động Phần mềm Quản lý Cửa hàng Đồ ăn nhanh.
+Sau khi đã chạy file "Create database.bat", bạn có thể khởi động Phần mềm Quản lý Cửa hàng.
 
 * **Tên đăng nhập (Username):** admin
 * **Mật khẩu (Password):** 0
