@@ -30,26 +30,26 @@ Sau khi đã chạy file "Create database.bat", bạn có thể khởi động P
 **4. Setup sử dụng chức năng gửi mail cho khách hàng(Sự kiện)**
 Để sử dụng chức năng gửi email cho khách hàng qua Gmail, bạn cần thực hiện các bước sau:
 Bước 1: Đăng ký và cấu hình Google Cloud Project
-* Truy cập Google Cloud Console.
-* Tạo một Project mới hoặc sử dụng Project hiện có.
-* Vào mục APIs & Services > Library, tìm và bật Gmail API cho Project của bạn.
+- Truy cập Google Cloud Console.
+- Tạo một Project mới hoặc sử dụng Project hiện có.
+- Vào mục APIs & Services > Library, tìm và bật Gmail API cho Project của bạn.
 Bước 2: Tạo OAuth 2.0 Credentials
-* Vào APIs & Services > Credentials.
-* Chọn Create Credentials > OAuth client ID.
-* Chọn loại ứng dụng là Desktop app.
-* Đặt tên bất kỳ, sau đó nhấn Create.
-* Tải về file credentials.json và đặt vào thư mục gốc của phần mềm (cùng cấp với file thực thi .exe).
+- Vào APIs & Services > Credentials.
+- Chọn Create Credentials > OAuth client ID.
+- Chọn loại ứng dụng là Desktop app.
+- Đặt tên bất kỳ, sau đó nhấn Create.
+- Tải về file credentials.json và đặt vào thư mục gốc của phần mềm (cùng cấp với file thực thi .exe).
 Bước 3: Đăng nhập Gmail lần đầu
-* Khi sử dụng chức năng gửi mail lần đầu, phần mềm sẽ yêu cầu xác thực tài khoản Google.
-* Một cửa sổ trình duyệt sẽ mở ra, bạn đăng nhập và cấp quyền cho ứng dụng.
-* Sau khi xác thực thành công, phần mềm sẽ lưu thông tin đăng nhập vào file token.json (tự động tạo).
+- Khi sử dụng chức năng gửi mail lần đầu, phần mềm sẽ yêu cầu xác thực tài khoản Google.
+- Một cửa sổ trình duyệt sẽ mở ra, bạn đăng nhập và cấp quyền cho ứng dụng.
+- Sau khi xác thực thành công, phần mềm sẽ lưu thông tin đăng nhập vào file token.json (tự động tạo).
 Bước 4: Sử dụng chức năng gửi mail
-* Vào mục Sự kiện, nhập nội dung, chủ đề, chọn khách hàng hoặc gửi cho tất cả.
-* Nhấn nút Gửi hoặc Gửi cho tất cả để gửi email.
+- Vào mục Sự kiện, nhập nội dung, chủ đề, chọn khách hàng hoặc gửi cho tất cả.
+- Nhấn nút Gửi hoặc Gửi cho tất cả để gửi email.
 Lưu ý quan trọng:
-* File credentials.json là bắt buộc và phải đặt đúng vị trí.
-* Tài khoản Google dùng để gửi mail phải có quyền truy cập Gmail.
-* Nếu đổi máy hoặc xóa file token.json, bạn sẽ cần xác thực lại tài khoản Google.
+- File credentials.json là bắt buộc và phải đặt đúng vị trí.
+- Tài khoản Google dùng để gửi mail phải có quyền truy cập Gmail.
+- Nếu đổi máy hoặc xóa file token.json, bạn sẽ cần xác thực lại tài khoản Google.
 
 ---
 
